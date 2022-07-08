@@ -1,0 +1,42 @@
+{
+  "name": "@lomray/stylelint-config",
+  "version": "1.0.0",
+  "description": "This package provides Lomray stylelint config as an extensible shared config.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lomray-Software/stylelint-config"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "config",
+    "lomray",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Mikhail Yarmaliuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lomray-Software/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/Lomray-Software/stylelint-config",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "semantic-release": "^19.0.3"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.9.1",
+    "stylelint-config-recommended-scss": "^6.0.0",
+    "stylelint-order": "^5.0.0"
+  }
+}
