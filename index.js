@@ -6,6 +6,7 @@ module.exports = {
 	rules: {
 		'no-missing-end-of-source-newline': true,
 		'order/properties-alphabetical-order': true,
+		'string-quotes': 'single',
 		'selector-class-pattern': ['^[a-z][a-zA-Z0-9]+$', {
 			message: 'Expected name to be camelCase',
 		}],
