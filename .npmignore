@@ -3,3 +3,4 @@ workflows
 .github
 commitlint.config.js
 release.config.js
+.husky
