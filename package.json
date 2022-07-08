@@ -19,6 +19,9 @@
     "es2017",
     "es2018"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Mikhail Yarmaliuk",
   "license": "MIT",
   "bugs": {
