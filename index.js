@@ -4,7 +4,8 @@ module.exports = {
 		'stylelint-order',
 	],
 	rules: {
-		'declaration-property-value-no-unknown': true,
+		'declaration-property-value-no-unknown': false,
+		'scss/at-import-partial-extension': false,
 		'order/properties-alphabetical-order': true,
 		'selector-class-pattern': ['^[a-z][a-zA-Z0-9]+$', {
 			message: 'Expected name to be camelCase',
