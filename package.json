@@ -30,7 +30,8 @@
   "homepage": "https://github.com/Lomray-Software/stylelint-config",
   "dependencies": {
     "stylelint-config-recommended-scss": "^12.0.0",
-    "stylelint-order": "^6.0.3"
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^4.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",

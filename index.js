@@ -2,8 +2,10 @@ module.exports = {
 	extends: ['stylelint-config-recommended-scss'],
 	plugins: [
 		'stylelint-order',
+		'stylelint-prettier',
 	],
 	rules: {
+		'prettier/prettier': true,
 		'declaration-property-value-no-unknown': null,
 		'scss/at-import-partial-extension': null,
 		'order/properties-alphabetical-order': true,
