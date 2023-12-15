@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	extends: ['stylelint-config-recommended-scss'],
 	plugins: [
 		'stylelint-order',
@@ -7,7 +7,6 @@ module.exports = {
 	rules: {
 		'prettier/prettier': true,
 		'declaration-property-value-no-unknown': null,
-		'scss/at-import-partial-extension': null,
 		'order/properties-alphabetical-order': true,
 		'selector-class-pattern': ['^[a-z][a-zA-Z0-9]+$', {
 			message: 'Expected name to be camelCase',
