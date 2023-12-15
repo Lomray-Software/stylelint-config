@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This package provides Lomray stylelint config as an extensible shared config.",
   "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lomray-Software/stylelint-config"
