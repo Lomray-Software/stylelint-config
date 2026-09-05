@@ -31,10 +31,13 @@
     "url": "https://github.com/Lomray-Software/stylelint-config/issues"
   },
   "homepage": "https://github.com/Lomray-Software/stylelint-config",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^14.0.0",
-    "stylelint-order": "^6.0.4",
-    "stylelint-prettier": "^5.0.0"
+    "stylelint-config-recommended-scss": "^17.0.1",
+    "stylelint-order": "^8.1.1",
+    "stylelint-prettier": "^5.0.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
@@ -44,6 +47,6 @@
     "semantic-release": "^21.0.7"
   },
   "peerDependencies": {
-    "stylelint": "^16.0.2"
+    "stylelint": "^17.0.0"
   }
 }
